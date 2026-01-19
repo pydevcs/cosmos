@@ -1,0 +1,16 @@
+App(
+    appid="cosmos",
+    name="Cosmos",
+    apptype=FlipperAppType.EXTERNAL,
+
+    entry_point="cosmos_app",
+    stack_size=4 * 1024,
+
+    fap_category="Examples",
+    fap_version=(1, 0),
+    fap_icon="A_Cosmos.png",
+    fap_description="1-bit cosmic demo scene with planets, comets, and ships",
+    fap_author="pydevcs",
+
+    sources=["cosmos.c"],
+)
